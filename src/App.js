@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import movieCover from './pickOfDestiny.jpg';
 import './App.css';
 
 class App extends Component {
@@ -7,20 +7,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-            This is a second test edit for vscode.
+          <p className = "movieTagline">
+            This is the best and greatest movie in the world, this is just a tribute.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <img src={movieCover} className="movie-cover" alt="movie cover" />
         </header>
+        <body>
+
+        </body>
       </div>
     );
   }
