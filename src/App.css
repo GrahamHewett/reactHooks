@@ -32,14 +32,16 @@
 }
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 .column { 
-  flex: 1; 
+  flex: 1; /* same as flex: 1 1 0; */
+  margin: 5px;
 }
 .row {
   display: flex;
+  margin: 5px;
 }
 
 

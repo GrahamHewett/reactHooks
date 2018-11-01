@@ -16,14 +16,14 @@ class App extends Component {
         </header>
           <main>
           <div className = "row">
-            <div className="column"><img src = {blackMirrorImg} alt ="A"></img></div>
-            <div className="column"><img src = {breakingBadImg} alt ="A"></img></div>
-            <div className="column"><img src = {deathNoteImg} alt ="A"></img></div>
+            <div className="column"><img src = {blackMirrorImg} alt ="Black Mirror Cover"></img></div>
+            <div className="column"><img src = {breakingBadImg} alt ="Breaking Bad Cover"></img></div>
+            <div className="column"><img src = {deathNoteImg} alt ="Death Note Cover"></img></div>
           </div>
           <div className = "row">
-            <div className="column"><img src = {GOTImg} alt ="A"></img></div>
-            <div className="column"><img src = {theWireImg} alt ="A"></img></div>
-            <div className="column"><img src = {walkingDeadImg} alt ="A"></img></div>
+            <div className="column"><img src = {GOTImg} alt ="Game of Thrones Cover"></img></div>
+            <div className="column"><img src = {theWireImg} alt ="The Wire Cover"></img></div>
+            <div className="column"><img src = {walkingDeadImg} alt ="The Walking Dead Cover"></img></div>
           </div>
           </main>
         </div>
