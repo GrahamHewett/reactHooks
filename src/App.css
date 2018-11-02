@@ -33,6 +33,7 @@ img {
   flex: 1; /* same as flex: 1 1 0; */
   margin: 5px;
   position: relative;
+  overflow: hidden;
 }
 .column > h2 {
   color: white;
@@ -43,11 +44,11 @@ img {
   visibility: hidden;
 }
 .column:hover > h2 {
-  background-color: rgb(0);
-  color: lightgray;
+  background-color: black;
   visibility: visible;
   bottom: 0;
-  transition: 0.5s;
+  opacity: 0.65;
+  transition: bottom 0.5s linear 0.2s;
 }
 .row {
   display: flex;
