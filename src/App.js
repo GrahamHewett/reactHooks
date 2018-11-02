@@ -15,8 +15,10 @@ class App extends Component {
         </header>
           <main>
           <div className = "row">
-            <TvShow name = "Black Mirror" img = './blackMirror.jpg' />
-            <TvShow name = "Breaking Bad" img = './breakingBad.jpg' />
+            <TvShow name = "Black Mirror" img = 'http://www.randomhousebooks.com/wp-content/uploads/2017/09/BLACK-MIRROR-ART.jpg' />
+            <TvShow name = "Breaking Bad" 
+              img = 
+              'http://www.coverwhiz.com/content/Breaking-Bad-Season-5.jpg' />
             <div className="column">
             <h2>Death Note</h2>
             <img src = {deathNoteImg} alt ="Death Note Cover"></img></div>
