@@ -1,43 +1,60 @@
-import React, { Component } from 'react';
-import './App.css';
-import deathNoteImg from './deathNote.jpg';
-import gameOfThronesImg from './gameOfThrones.jpg';
-import theWireImg from './theWire.jpg';
-import theWalkingDeadImg from './theWalkingDead.jpg';
-import TvShow from './tvShowComponent';
+import React from "react";
+import "./App.css";
+import Login from "./Login"
 
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-        </header>
-          <main>
-          <div className = "row">
-            <TvShow name = "Black Mirror" img = 'http://www.randomhousebooks.com/wp-content/uploads/2017/09/BLACK-MIRROR-ART.jpg' />
-            <TvShow name = "Breaking Bad" 
-              img = 
-              'http://www.coverwhiz.com/content/Breaking-Bad-Season-5.jpg' />
-            <div className="column">
-            <h2>Death Note</h2>
-            <img src = {deathNoteImg} alt ="Death Note Cover"></img></div>
-          </div>
-          <div className = "row">
-            <div className="column">
-            <h2>Game of Thrones</h2>
-            <img src = {gameOfThronesImg} alt ="Game of Thrones Cover"></img></div>
-            <div className="column">
-            <h2>The Wire</h2>
-            <img src = {theWireImg} alt ="The Wire Cover"></img></div>
-            <div className="column">
-            <h2>The Walking Dead</h2>
-            <img src = {theWalkingDeadImg} alt ="The Walking Dead Cover"></img></div>
-          </div>
-          </main>
-        </div>
-    );
-  }
+function App() {
+  return <Login />
 }
+// class App extends Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       count: 0
+//     };
+//   }
+
+//   incrementCount = () => {
+//     this.setState( {count: this.state.count + 1} );
+//   }
+
+//   decrementCount = () => {
+//     this.setState( {count: this.state.count - 1 } );
+//   }
+
+//   render() {
+//     return (
+//       <div className='counter'>
+//         <p className="count">Count: {this.state.count}</p>
+//         <button className="plus" onClick={this.incrementCount}>Increase Count</button>
+//         <button className="minus" onClick={this.decrementCount}>Decrease Count</button>
+//       </div>
+//     );
+//   }
+// }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// classes https://scrimba.com/p/p4Mrt9/cQnMDHD
+
+// function App() {
+//   const [answer, setAnswer] = useState('Yes!');
+//   return (
+//     <div>
+//       <h1>Do we understand State in React? {this.state.answer}</h1>
+//       {/* <ChildComponent answer={this.state.answer}/> */}
+//     </div>
+//   );
+// }
