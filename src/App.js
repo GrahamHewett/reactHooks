@@ -2,35 +2,35 @@ import React from "react";
 import "./App.css";
 import Login from "./Login"
 
-function App() {
-  return <Login />
-}
-// class App extends Component {
-//   constructor() {
-//     super();
-//     this.state = {
-//       count: 0
-//     };
-//   }
-
-//   incrementCount = () => {
-//     this.setState( {count: this.state.count + 1} );
-//   }
-
-//   decrementCount = () => {
-//     this.setState( {count: this.state.count - 1 } );
-//   }
-
-//   render() {
-//     return (
-//       <div className='counter'>
-//         <p className="count">Count: {this.state.count}</p>
-//         <button className="plus" onClick={this.incrementCount}>Increase Count</button>
-//         <button className="minus" onClick={this.decrementCount}>Decrease Count</button>
-//       </div>
-//     );
-//   }
+// function App() {
+//   return <Login />
 // }
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      count: 0
+    };
+  }
+
+  incrementCount = () => {
+    this.setState( {count: this.state.count + 1} );
+  }
+
+  decrementCount = () => {
+    this.setState( {count: this.state.count - 1 } );
+  }
+
+  render() {
+    return (
+      <div className='counter'>
+        <p className="count">Count: {this.state.count}</p>
+        <button className="plus" onClick={this.incrementCount}>Increase Count</button>
+        <button className="minus" onClick={this.decrementCount}>Decrease Count</button>
+      </div>
+    );
+  }
+}
 
 export default App;
 
